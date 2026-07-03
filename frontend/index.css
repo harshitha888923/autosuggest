@@ -1,3 +1,14 @@
 h1{
-    color:red
+    color:black;
+}
+
+#home-intro{
+    text-align:center;
+    border: 3px solid black;
+}
+#p1{
+    color:blue;
+}
+#home-intro:hover{
+    background-color:lightgray;
 }
