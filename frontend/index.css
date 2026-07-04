@@ -1,73 +1,78 @@
+/* Heading */
 h1 {
-  color: red;
+    color: red;
 }
 
-/* property : value */
-
-
-#home-intro{
-  text-align: center;
-  border: 3px solid blue;
-
+/* Home Intro */
+#home-intro {
+    text-align: center;
+    border: 3px solid blue;
+    padding: 10px;
 }
 
-#home-intro:hover{
-  background-color: burlywood;
+#home-intro:hover {
+    background-color: burlywood;
 }
 
-#p2{
-  color: blue;
+/* Navigation */
+#nav {
+    text-align: center;
+    background-color: brown;
+    padding: 8px;
+    margin-bottom: 20px;
 }
 
-#nav{
-  text-align: center;
-  background-color: brown;
-  height: 25px;
-  padding-top: 5px;
-  margin-bottom: 5px;
+#nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
 }
 
-#nav a{
-  margin: 0px 5px;
-  text-decoration: none;
-  color: white;
+/* User Card */
+#card {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
 }
 
-#card{
-  align-items: center;
-  margin-top: 5px;
-  margin-left: 625px;
-  margin-right: 575px;
-  border: 3px solid black;
-  border-radius: 5px;
-  height: 100%;
+/* Image Section */
+#card-img {
+    width: 300px;
 }
 
-#card-img{
-  width: 300px;
-  height: 300px;
-  align-items: center;
-  margin: 0px auto;
+#card-img img {
+    width: 300px;
+    height: 300px;
+    display: block;
 }
 
-img{
-  width: 300px;
-  height: 300px;
+/* Details Section */
+#action {
+    border-top: 1px solid black;
+    padding: 20px;
 }
 
-#action{
-  text-align: center;
-  width: 100%;
-  height:100%;
-  margin:0;
+#action h1 {
+    color: red;
+    font-size: 45px;
+    margin: 10px 0;
 }
-#action button{
-  margin: 5px 0;
-  height: 30px;
-  width:100%;
-  overflow: hidden;
-  border: none;
-  /* border-radius: 5px; */
-  background-color: rgb(128, 133, 139);
-  color: rgb(21, 20, 20);
+
+#action p {
+    font-size: 22px;
+    margin: 10px 0 20px;
+}
+
+/* Buttons */
+#action button {
+    padding: 8px 15px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#action button:hover {
+    background-color: lightgray;
 }
