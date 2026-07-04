@@ -67,12 +67,15 @@ h1 {
 
 /* Buttons */
 #action button {
-    padding: 8px 15px;
-    margin: 5px;
+   /* padding: 8px 15px;*/
+   /* margin: 5px;*/
     font-size: 16px;
     cursor: pointer;
+    width: 300px;
+    
 }
 
 #action button:hover {
     background-color: lightgray;
+    
 }
